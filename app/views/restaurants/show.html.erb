@@ -4,5 +4,5 @@
 <p> <%= @restaurant.phone_number %></p>
 <p> <%= @restaurant.category %></p>
 
-<%= link_to "Index", restaurant_path(@restaurant) %>
+<%= link_to "Index", restaurants_path%>
 <%= link_to "add review", new_restaurant_review_path(@restaurant, @review)%>
